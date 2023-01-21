@@ -13,12 +13,12 @@
 - Created Apache Spark Pool named 'coursepool'. 
 - Pyspark notebook '1_spark_create_gold_trip_data_green_agg' is created in synapse studio. It shows integration between serverless sql pool and spark pool.
 - 3] Cosmos DB:
-- Create Azure Cosmos DB account with name 'cosmos-db-synapse-course'. Create database nyctaxidb in it and container named Heartbeat.
+- Created Azure Cosmos DB account with name 'cosmos-db-synapse-course'. Created database nyctaxidb in it and container named Heartbeat.
 - A linked service named 'ls_cosmos_db_nyc_taxi_data' is created in synapse studio. 
 - i]This linked service has sql script named '1_synapse_link_query_heartbeat' to connect synapse serverless sql pool to cosmos db.
 - ii] This linked service has PySpark notebook named "1_synapse_link_query_heartbeat_sparkpool" that connect apache spark pool to cosmos db.
 - 4]Dedicated SQL Pool:
-- Create a dedicated SQL pool named: "nyc_taxi_dwh"
+- Created a dedicated SQL pool named: "nyc_taxi_dwh"
 - Two methods to load data from table in datalake container to database in dedicated sql pool
 - i]1_ctas_trip_data_green_agg uses Polybase method 
 - ii]2_trip_data_green_agg_copy uses copy statement 
