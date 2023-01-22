@@ -24,3 +24,4 @@
 - ii]2_trip_data_green_agg_copy uses copy statement 
 
  
+ - https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
