@@ -23,6 +23,6 @@
 - i]1_ctas_trip_data_green_agg uses Polybase method 
 - ii]2_trip_data_green_agg_copy uses copy statement 
 
- - download datasets from below website: 
+ -download datasets from below website: 
  - https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page 
  
